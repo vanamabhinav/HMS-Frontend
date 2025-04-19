@@ -1,0 +1,248 @@
+/* General Styles */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  
+  .heroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Content section */
+  .contentSection {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .sectionTitle {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  
+  .sectionDescription {
+    color: #546e7a;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Search */
+  .searchContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .searchBox {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .viewAllButton {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .viewAllButton:hover {
+    background-color: #1a252f;
+  }
+  
+  .viewAllButton.full {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .viewAllContainer {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  /* Hotel List */
+  .hotelList {
+    margin-top: 30px;
+  }
+  
+  .hotelCard {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .hotelCard:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hotelHeader {
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .hotelHeader h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  .toggleIcon {
+    color: #2c3e50;
+    font-size: 12px;
+  }
+  
+  .hotelDetails {
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #eee;
+  }
+  
+  .hotelDetails p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .contactPerson {
+    margin-bottom: 15px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .viewDetailsButton {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .viewDetailsButton:hover {
+    background-color: #1a252f;
+  }
+  
+  /* Status Messages */
+  .loading {
+    text-align: center;
+    margin: 50px 0;
+    color: #546e7a;
+  }
+  
+  .error {
+    color: #c62828;
+    background-color: #ffebee;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .noHotels {
+    text-align: center;
+    margin: 50px 0;
+    color: #546e7a;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero {
+      height: 400px;
+    }
+    
+    .title {
+      font-size: 36px;
+    }
+    
+    .subtitle {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      height: 350px;
+    }
+    
+    .title {
+      font-size: 28px;
+    }
+    
+    .subtitle {
+      font-size: 16px;
+    }
+    
+    .searchBox {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  
