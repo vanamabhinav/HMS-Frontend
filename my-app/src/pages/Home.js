@@ -260,7 +260,7 @@ function Home() {
         <div style={heroStyle}>
           <h1 style={titleStyle}>Discover Extraordinary Destinations</h1>
           <p style={subtitleStyle}>
-            Colombus Vacations is your gateway to seamless hotel management and booking experiences across the globe.
+            Columbus Vacations is your gateway to seamless hotel management and booking experiences across the globe.
           </p>
           <div style={actionButtonsStyle}>
             <Link
@@ -286,7 +286,7 @@ function Home() {
 
         {/* Features Section */}
         <div style={contentSectionStyle}>
-          <h2 style={sectionTitleStyle}>Why Choose Colombus Vacations?</h2>
+          <h2 style={sectionTitleStyle}>Why Choose Columbus Vacations?</h2>
           <p style={sectionDescriptionStyle}>
             Our platform offers comprehensive hotel management solutions designed for travel professionals.
           </p>
@@ -353,7 +353,7 @@ function Home() {
               lineHeight: "1.6",
               marginBottom: "30px",
             }}>
-              "Colombus Vacations has revolutionized our hotel booking process, making it seamless to find and manage accommodations for our clients."
+              "Columbus Vacations has revolutionized our hotel booking process, making it seamless to find and manage accommodations for our clients."
             </p>
             <div style={{ fontWeight: "bold", fontSize: "18px" }}>
               - Sarah Johnson, Travel Agent

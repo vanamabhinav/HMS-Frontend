@@ -244,7 +244,7 @@ function Navbar() {
         {/* Logo */}
         <Link to="/" style={logoStyle}>
           <i className="fas fa-umbrella-beach" style={{ fontSize: '28px', color: GlobalStyles.colors.secondary }}></i>
-          <span>Colombus Vacations</span>
+          <span>Columbus Vacations</span>
         </Link>
 
         {/* Mobile Menu Button */}

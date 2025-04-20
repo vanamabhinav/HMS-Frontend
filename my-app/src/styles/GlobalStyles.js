@@ -1,4 +1,4 @@
-// Global Styles for Colombus Vacations
+// Global Styles for Columbus Vacations
 const GlobalStyles = {
   colors: {
     primary: '#1976D2', // Ocean blue - primary brand color
